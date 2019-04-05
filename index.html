@@ -23,7 +23,11 @@
       <title>Diego Corrales</title>
       <link
         rel="stylesheet"
-        href="font-awesome-4.7.0/css/font-awesome.min.css"
+        href="/node_modules/font-awesome/css/font-awesome.css"
+      />
+      <link
+        rel="stylesheet"
+        href="/node_modules/bootstrap/dist/css/bootstrap.css"
       />
       <link href="styles.css" rel="stylesheet" />
       <link rel="shortcut icon" type="image/png" href="img/icons/favicon.png" />
@@ -43,7 +47,12 @@
                   <li><a href="#skills">Skills</a></li>
                   <li><a href="#projects">Projects</a></li>
                   <li><a href="#contact">Contact</a></li>
-                  <li><a href="img/Diego%202017%20Resume.pdf">My Resume</a></li>
+                  <button
+                    class="btn btn-info"
+                    onclick="gtag('send', 'event', 'button', 'click', 'resume')"
+                  >
+                    <a href="img/Diego%202017%20Resume.pdf">My Resume</a>
+                  </button>
                   <li></li>
                 </ul>
               </nav>
@@ -83,7 +92,6 @@
               <td><img src="img/icons/responsiveWebDesign.png" /></td>
             </div>
             <h3>Development</h3>
-            <p>BDD</p>
             <p>REST</p>
             <p>MVC</p>
             <p>OOP</p>
