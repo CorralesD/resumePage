@@ -117,7 +117,7 @@ a:hover {
 /*End Nav*/
 
 .skills {
-  padding-bottom: 650px;
+  contain: content;
   box-shadow: 0 0 5px #ccc;
   border: 5px solid #fff;
   background: #fff;
@@ -142,7 +142,6 @@ a:hover {
 }
 
 .iconWrap img {
-  width: 50%;
   margin: 0 auto;
   text-align: center;
   color: #f0f0f0;
