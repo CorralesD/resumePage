@@ -21,10 +21,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <title>Diego Corrales</title>
-      <link
-        rel="stylesheet"
-        href="/node_modules/font-awesome/css/font-awesome.css"
-      />
+      <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.css" />
       <link
         rel="stylesheet"
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -47,11 +44,12 @@
                   <li><a href="#skills">Skills</a></li>
                   <li><a href="#projects">Projects</a></li>
                   <li><a href="#contact">Contact</a></li>
-                  <button
-                    class="btn btn-info"
-                    onclick="gtag('send', 'event', 'button', 'click', 'resume')"
-                  >
-                    <a href="/img/Diego%202017%20Resume.pdf">My Resume</a>
+                  <button class="btn btn-info">
+                    <a
+                      onclick="ga('send', 'event', 'Link', 'Click', 'Resume View');"
+                      href="/img/Diego%202017%20Resume.pdf"
+                      >My Resume</a
+                    >
                   </button>
                   <li></li>
                 </ul>
