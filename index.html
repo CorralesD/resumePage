@@ -15,7 +15,20 @@
 
         gtag("config", "UA-137822922-1");
       </script>
-
+      <!-- Google Tag Manager -->
+      <script>
+        (function(w, d, s, l, i) {
+          w[l] = w[l] || [];
+          w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+          var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != "dataLayer" ? "&l=" + l : "";
+          j.async = true;
+          j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+          f.parentNode.insertBefore(j, f);
+        })(window, document, "script", "dataLayer", "GTM-N3T2442");
+      </script>
+      <!-- End Google Tag Manager -->
       <meta charset="utf-8" />
       <script src="https://cdn.optimizely.com/js/8341303419.js"></script>
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -31,6 +44,16 @@
     </head>
 
     <body>
+      <!-- Google Tag Manager (noscript) -->
+      <noscript
+        ><iframe
+          src="https://www.googletagmanager.com/ns.html?id=GTM-N3T2442"
+          height="0"
+          width="0"
+          style="display:none;visibility:hidden"
+        ></iframe
+      ></noscript>
+      <!-- End Google Tag Manager (noscript) -->
       <div id="wrapper">
         <div id="bannerWrapper">
           <header>
@@ -45,11 +68,7 @@
                   <li><a href="#projects">Projects</a></li>
                   <li><a href="#contact">Contact</a></li>
                   <button class="btn btn-info">
-                    <a
-                      onclick="ga('send', 'event', 'Link', 'Click', 'Resume View');"
-                      href="/img/Diego%202017%20Resume.pdf"
-                      >My Resume</a
-                    >
+                    <a href="/img/Diego%202017%20Resume.pdf">My Resume</a>
                   </button>
                   <li></li>
                 </ul>
