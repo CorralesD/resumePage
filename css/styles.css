@@ -253,6 +253,7 @@ footer.second p {
 button a {
   color: #f1f6f8;
   font-weight: normal;
+  margin: auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -285,12 +286,9 @@ button a {
     margin: 2px;
   }
 
-  nav:hover ul {
-    display: block;
-  }
-
   nav ul,
   nav:active ul {
+    text-align: center;
     display: none;
     z-index: 1000;
     position: absolute;
@@ -305,7 +303,6 @@ button a {
   }
 
   nav li {
-    text-align: center;
     width: 100%;
   }
 
@@ -315,7 +312,6 @@ button a {
   }
 
   .skills {
-    padding-bottom: 1700px;
     box-shadow: 0 0 5px #ccc;
     border: 5px solid #fff;
     background: #fff;
